@@ -17,7 +17,6 @@ function App() {
     <React.Fragment>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
-
     </React.Fragment>
   );
 }

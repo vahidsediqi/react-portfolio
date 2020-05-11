@@ -19,6 +19,7 @@ function Home() {
         <NavMenu />
       <Hero />
       <Skills />
+      <Services />
       <Footer />
 
       </div>
