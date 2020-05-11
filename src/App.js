@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavMenu from './components/Navbar';
@@ -14,9 +14,11 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div>
-      <Home />  
-    </div>
+    <React.Fragment>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+
+    </React.Fragment>
   );
 }
 

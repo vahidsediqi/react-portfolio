@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import Home from './components/Home';
@@ -8,10 +8,9 @@ import Home from './components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-      {/* <BrowserRouter>
+      <BrowserRouter>
           <App />
-      </BrowserRouter> */}
-      < App />
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

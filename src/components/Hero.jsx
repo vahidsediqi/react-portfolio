@@ -6,7 +6,7 @@ import './componentStyles/main.css'
 
 const Hero = (props) => {
     return (
-      <div class="hero">
+      <div className="hero">
         <Jumbotron className="jumbo" >
            <div className="container" style={{marginTop: '80px'}}>
            <img  className="headshot mt-3" src={mypic} />

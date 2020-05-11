@@ -1,18 +1,6 @@
 import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from 'reactstrap';
+import { Link } from 'react-router-dom';
+import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import './componentStyles/main.css'
 
 const NavMenu = (props) => {
@@ -37,16 +25,16 @@ const NavMenu = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="pr-5">
-              <NavLink className="text-light" href="#">Home</NavLink>
+              <Link className="text-light nav-link" to="/">Home</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <NavLink className="text-light" href="#">About</NavLink>
+              <Link className="text-light nav-link" to="/about">About</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <NavLink className="text-light " href="#">Portfolio</NavLink>
+              <Link className="text-light nav-link " to="#">Portfolio</Link>
             </NavItem>
             <NavItem>
-              <NavLink className="text-light" href="#">Contact</NavLink>
+              <Link className="text-light nav-link" to="#">Contact</Link>
             </NavItem>
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}

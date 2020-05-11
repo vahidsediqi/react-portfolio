@@ -17,12 +17,12 @@ body{
     border-radius: 25px;
     height: 75px;
 } 
-.nav-item {
+.nav-link {
     margin-right: 25px;
 
 }
 
-.nav-item:hover{
+.nav-link:hover{
   color: orangered !important;
 }
 
