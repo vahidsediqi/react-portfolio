@@ -1,0 +1,144 @@
+
+:root {
+  --main-color: #0D1326;
+} 
+
+body{
+    font-family: sans-serif;
+}
+/* Navigation component styles */
+
+.navigation{
+    background-color: var(--main-color);
+    width: 95% !important;
+    margin: 15px auto !important;
+    border-right: 25px !important;
+    opacity: 0.9 !important;
+    border-radius: 25px;
+    height: 75px;
+} 
+.nav-item {
+    margin-right: 25px;
+
+}
+
+.nav-item:hover{
+  color: orangered !important;
+}
+
+@media(max-width: 765px) {
+    .nav-item::after{
+        /* border-bottom: wheat solid .5px !important; */
+        content: "";
+        height: 0.5px;
+        width: 150px;
+        background-color: wheat;
+        display:block
+    }
+
+    .navigation{
+        height: auto;
+    }
+}
+
+/* Hero Component Styles */
+.jumbo {
+    background-color: transparent !important;
+}
+
+.hero {
+    background-image: url('./slider.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+    text-align: center;
+    height: 95vh;
+    margin-top: -50px;
+}
+
+.headshot {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid var(--main-color) !important;
+}
+
+#portfolio{
+    margin-top: 150px !important;
+}
+
+.hero-icons {
+    font-size: 1.5rem !important;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.hero-icons:hover {
+    color: white;
+    color: orangered;
+}
+/* Skills Component Styles */
+
+.progress-bar{
+    height: 5px;
+    line-height: 25px;
+    background-color: var(--main-color)  !important;
+}
+
+.progress {
+    height: 5px;
+}
+
+.container > .row p {
+    max-width: 75%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+/* services component styles */
+#services {
+    background-image: url("./services-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25px;
+}
+
+.service-icon {
+    font-size: 4rem !important;
+    border-radius: 50%;
+    color:orangered;
+}
+
+
+.card {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    border-radius: 5px !important;
+    transition: ease-in-out 0.5s;
+    opacity: 0.7;
+}
+
+.card:hover{
+    background-color: #0D1326;
+    color: white;
+    opacity: 0.5;
+    border: 1px orangered solid;
+}
+
+@media (max-width: 576px) {
+    .card{
+        margin: 25px auto !important;
+        width: auto;
+    }
+  }
+
+
+#footer {
+    background-color: var(--main-color);
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
