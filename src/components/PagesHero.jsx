@@ -9,7 +9,7 @@ function PagesHero(props) {
       <div id="pages-hero">
          <div className="container">
              <div className="row">
-                 <div  style={{marginTop: '100px', fontSize: '25px'}} className="col-12">
+                 <div  style={{marginTop: '60px', fontSize: '25px'}} className="col-12">
                  <span><Link className="text-light d-inline" to="/">Home /</Link>
                  <Link className="text-light nav-link d-inline" to="/about">About</Link>
                  </span>   

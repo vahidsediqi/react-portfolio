@@ -12,7 +12,6 @@ const Hero = (props) => {
            <img  className="headshot mt-3" src={mypic} />
                 <h1 className="text-center mt-5">Hello, I am Vahid Sediqi</h1>
                   <p className="lead text-center">Front-end <span>Software Engineer,</span> Freelancer</p>
-                  <br/>
                   <div className="mt-4">
                       <i className="fa fa-facebook pr-4 hero-icons"><a href="#"></a></i>
                       <i className="fa fa-instagram pr-4 hero-icons"><a href="#"></a></i>
