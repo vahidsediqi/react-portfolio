@@ -13,6 +13,8 @@ const Footer = () => {
                         <i className="fa fa-linkedin hero-icons"><a href="#"></a></i>                         
                     </div>
                     </div>
+                    <hr style={{backgroundColor: 'white'}}/>
+
                     <div className="row">
                     <div className="col-12">
                     <p>© 2020 Vahid.tech All rights reserved | Designed by Vahid Sediqi</p>

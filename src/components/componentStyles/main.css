@@ -1,6 +1,7 @@
 
 :root {
   --main-color: #0D1326;
+  --second-color: #F8F9FA;
 } 
 
 body{
@@ -19,6 +20,7 @@ body{
 } 
 .nav-link {
     margin-right: 25px;
+
 
 }
 
@@ -78,6 +80,15 @@ body{
 .hero-icons:hover {
     color: white;
     color: orangered;
+}
+
+/* subpages Hero */
+#pages-hero {
+    margin-top: -45px;
+    padding-top: 150px;
+    color: white;
+    background-image: url('./about-slider.jpg');
+    height: 45vh;
 }
 /* Skills Component Styles */
 
@@ -141,4 +152,18 @@ body{
     margin-top: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+/* about */
+
+#about-cards {
+    background-color: var(--second-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#about-cards > .container > .row > .card {
+  border: 0 !important;
 }
