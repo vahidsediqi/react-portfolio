@@ -9,19 +9,15 @@ import Hero from './Hero';
 import Skills from './Skills';
 import Services from './Services';
 import Footer from './Footer';
-import About from './About'
-import mypic from './me.jpg'
-import { Jumbotron } from 'reactstrap';
 
 function Home() {
   return (
       <div>
-        <NavMenu />
-      <Hero />
-      <Skills />
-      <Services />
-      <Footer />
-
+          <NavMenu />
+          <Hero />
+          <Skills />
+          <Services />
+          <Footer />
       </div>
   );
 }
