@@ -32,13 +32,13 @@ const About = () => {
                         <div className="col-lg-8 col-md-12 col-sm-12 mt-2 ">
                            <h1>Front-end Developer</h1>
                            <div className="row">
-                           <ul class="list-group col-6">
+                           <ul class="list-group col-lg-6 col-sm-12">
                                 <li class="list-group-item"><strong>Birthday: </strong>30 Aug 1989</li>
                                 <li class="list-group-item"><strong>Website: </strong>www.vahid.tech</li>
                                 <li class="list-group-item"><strong>Phone: </strong>+90 535 636 85 76</li>
                                 <li class="list-group-item"><strong>City: </strong>Ankara, Turkey</li>
                             </ul>
-                            <ul class="list-group col-6">
+                            <ul class="list-group col-lg-6 col-sm-12">
                                 <li class="list-group-item"><strong>Freelance: </strong>Available</li>
                                 <li class="list-group-item"><strong>Email: </strong>vahid.sediqi@gmail.com</li>
                             </ul>
