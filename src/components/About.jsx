@@ -52,12 +52,12 @@ const About = () => {
                     <div className="row mt-5">
                         <div className="col-12">
                             <h1 className="text-center">Learn More</h1>
-                            <p>I will design and develop fully dynamic and responsive Website or
+                            <div className="text-center">I will design and develop fully dynamic and responsive Website or
                                Landing Page for you that will be eye catching, responsive, 
                                Google-friendly and affordable price.
                                I am a Website Developer having 5+ years of professional 
                                 experience in this Industry. My focus is customer satisfaction,
-                                precision, accuracy and quick services.</p>
+                                precision, accuracy and quick services.</div>
                         </div>
                     </div>
                     <div className="row mt-3">
