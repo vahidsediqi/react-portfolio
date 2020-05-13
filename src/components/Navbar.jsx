@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import './componentStyles/main.css';
 import '../hover.css'
+import logo from './logo.png'
 
 
 const NavMenu = (props) => {
@@ -22,7 +23,7 @@ const NavMenu = (props) => {
     <div className="pb-5">
       <Navbar className="text-light fixed-top navigation" dark expand="md">
           <div className="container">
-          <NavbarBrand href="/">Vahid Sediqi</NavbarBrand>
+          <NavbarBrand href="/"><img style={{height: "40px"}} src={logo} /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
