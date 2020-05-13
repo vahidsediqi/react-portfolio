@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import './componentStyles/main.css'
+import './componentStyles/main.css';
+import '../hover.css'
+
 
 const NavMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,16 +27,16 @@ const NavMenu = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="pr-5">
-              <Link className="text-light nav-link" to="/">Home</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="/">Home</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <Link className="text-light nav-link" to="/about">About</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="/about">About</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <Link className="text-light nav-link " to="#">Portfolio</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="#">Portfolio</Link>
             </NavItem>
             <NavItem>
-              <Link className="text-light nav-link" to="#">Contact</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="/contacts">Contact</Link>
             </NavItem>
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}

@@ -2,10 +2,15 @@
 :root {
   --main-color: #0D1326;
   --second-color: #F8F9FA;
+  --thirthColor: orangered;
 } 
 
 body{
     font-family: sans-serif;
+}
+
+.paragraph {
+    font-size: 18px;
 }
 /* Navigation component styles */
 
@@ -29,15 +34,7 @@ body{
 }
 
 @media(max-width: 765px) {
-    .nav-item::after{
-        /* border-bottom: wheat solid .5px !important; */
-        content: "";
-        height: 0.5px;
-        width: 150px;
-        background-color: wheat;
-        display:block
-    }
-
+ 
     .navigation{
         height: auto;
     }
@@ -132,12 +129,12 @@ body{
     opacity: 0.7;
 }
 
-.card:hover{
+/* .card:hover{
     background-color: #0D1326;
     color: white;
     opacity: 0.5;
     border: 1px orangered solid;
-}
+} */
 
 @media (max-width: 576px) {
     .card{

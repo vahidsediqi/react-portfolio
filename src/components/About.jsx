@@ -5,6 +5,7 @@ import about from './about.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PagesHero from './PagesHero';
 import Footer from './Footer';
+import '../hover.css'
 
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-12 mt-5 mb-5">
                             <h1 className="display-3">About Me</h1>
-                                <div className="text-left">I am a creative, artistic and ambitious Sorftware Engineer with a talent for
+                                <div className="text-left paragraph">I am a creative, artistic and ambitious Sorftware Engineer with a talent for
                                 thinking outside the box and coming up with innovative ideas and designs.
                                 I have been working in the web design industry for the past 5 years.
                                 I pride myself in providing excellent service to all stakeholders 
@@ -29,17 +30,18 @@ const About = () => {
                         <div className="col-lg-4 col-md-12 col-sm-12">
                             <img class="img-fluid img-thumbnail"  src={about} />
                         </div>
-                        <div className="col-lg-8 col-md-12 col-sm-12 mt-2 ">
-                           <h1>Front-end Developer</h1>
+                        <div className="col-lg-8 col-md-12 col-sm-12 mt-4 ">
+                           <h1 className="mt-3">Front-end Developer</h1>
                            <div className="row">
                            <ul class="list-group col-lg-6 col-sm-12">
+                                <li class="list-group-item"><strong>Full Name: </strong>Waheedullah Sediqi</li>
                                 <li class="list-group-item"><strong>Birthday: </strong>30 Aug 1989</li>
                                 <li class="list-group-item"><strong>Website: </strong>www.vahid.tech</li>
-                                <li class="list-group-item"><strong>Phone: </strong>+90 535 636 85 76</li>
                                 <li class="list-group-item"><strong>City: </strong>Ankara, Turkey</li>
                             </ul>
                             <ul class="list-group col-lg-6 col-sm-12">
                                 <li class="list-group-item"><strong>Freelance: </strong>Available</li>
+                                <li class="list-group-item"><strong>Phone: </strong>+90 535 636 85 76</li>
                                 <li class="list-group-item"><strong>Email: </strong>vahid.sediqi@gmail.com</li>
                             </ul>
                            </div>
@@ -52,10 +54,10 @@ const About = () => {
                     <div className="row mt-5">
                         <div className="col-12">
                             <h1 className="text-center">Learn More</h1>
-                            <div className="text-center">I will design and develop fully dynamic and responsive Website or
-                               Landing Page for you that will be eye catching, responsive, 
-                               Google-friendly and affordable price.
-                               I am a Website Developer having 5+ years of professional 
+                            <div className="text-center paragraph">I will design and develop fully dynamic and responsive Website or
+                                Landing Page for you that will be eye catching, responsive, 
+                                Google-friendly and affordable price.
+                                I am a Website Developer having 5+ years of professional 
                                 experience in this Industry. My focus is customer satisfaction,
                                 precision, accuracy and quick services.</div>
                         </div>

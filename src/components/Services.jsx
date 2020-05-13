@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../hover.css'
 
 const Services = () => {
     return(
@@ -8,23 +9,23 @@ const Services = () => {
                   <h1 className="col-12 text-center text-light">I'm Available For Hire</h1>
               </div>
               <div className="row mt-5">
-                    <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{width: "18rem"}}>
+                    <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
                         <div className="card-body text-center">
-                            <div className="card-title"><i className="fa fa-html5 service-icon"></i></div>
+                            <div className="card-title"><i className="fa fa-html5 service-icon hvr-icon"></i></div>
                             <h3 className="card-subtitle mb-2">Web Design</h3>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p className="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-                     <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{width: "18rem"}}>
+                     <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
                         <div className="card-body text-center">
-                            <div className="card-title"><i className="fa fa-wordpress service-icon"></i></div>
+                            <div className="card-title"><i className="fa fa-wordpress service-icon hvr-icon"></i></div>
                             <h3 className="card-subtitle mb-2">Wordpress</h3>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                   </div>
-                  <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{width: "18rem"}}>
+                  <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
                         <div className="card-body text-center">
-                            <div className="card-title"><i className="fa fa-mobile service-icon"></i></div>
+                            <div className="card-title"><i className="fa fa-mobile service-icon hvr-icon"></i></div>
                             <h3 className="card-subtitle mb-2">Web Application</h3>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
