@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../hover.css'
 
-const Services = () => {
+const More = () => {
     return(
       <div id="services" className=" pt-5 pb-5">
           <div className="container pb-5">
@@ -13,21 +13,31 @@ const Services = () => {
                         <div className="card-body text-center">
                             <div className="card-title"><i className="fa fa-html5 service-icon hvr-icon"></i></div>
                             <h3 className="card-subtitle mb-2">Web Design</h3>
-                            <p className="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p className="card-text ">
+                             I am expert in web designing using HTML,
+                             Css and JavaScript, I use modern front-end 
+                             technology like ReactJs Bootstrap and Jquery 
+                            </p>
                         </div>
                     </div>
                      <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
                         <div className="card-body text-center">
                             <div className="card-title"><i className="fa fa-wordpress service-icon hvr-icon"></i></div>
-                            <h3 className="card-subtitle mb-2">Wordpress</h3>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h3 className="card-subtitle mb-2">CMS</h3>
+                            <p className="card-text">
+                            I am comfortable working with CMS like Wordpress,
+                             Shopify and OpenCart using elementor wordpress page builder
+                            </p>
                         </div>
                   </div>
                   <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
                         <div className="card-body text-center">
                             <div className="card-title"><i className="fa fa-mobile service-icon hvr-icon"></i></div>
-                            <h3 className="card-subtitle mb-2">Web Application</h3>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h3 className="card-subtitle mb-2">Web Apps</h3>
+                            <p className="card-text">
+                            I have less than one year experience in python programming
+                            and I build web apps using flask library and SQL for backend for building web apps
+                            </p>
                         </div>
                     </div>
               </div>
@@ -36,4 +46,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default More;

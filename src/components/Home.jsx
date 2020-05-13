@@ -7,8 +7,9 @@ import '../App.css';
 import NavMenu from './Navbar';
 import Hero from './Hero';
 import Skills from './Skills';
-import Services from './Services';
+import More from './More';
 import Footer from './Footer';
+import { Services } from './About';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
           <NavMenu />
           <Hero />
           <Skills />
+          <More />
           <Services />
           <Footer />
       </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button} from 'reactstrap';
 import './componentStyles/main.css'
+import webpic from './website.png'
 
 
 const Skills = () => {
@@ -94,6 +95,24 @@ const Skills = () => {
                </div>
            </div>
            <br/> 
+           <div className="row">
+           <div className="col-lg-6 col-md-12 mt-5">
+                    <h4>
+                       Waht is Mobile-first approach?
+                    </h4>
+                    <div className="paragraph mt-3">It is the ideology that mobile design, as the hardest, should be done first. 
+                      Once the mobile design questions are answered, designing for other devices will be easier.
+                     What it boils down to is that, the smallest of the designs will have only the essential features,
+                     so right away you have designed the heart of your UX.
+                     I will design a fully responsive website (Mobile-first approach) website that fits all screen sizes with latest technology
+                     like bootstrap 4 and Materialize Css.
+                     </div>
+               </div>
+               <div className="col-lg-6 col-md-12">
+                   <img className=" img-thumbnail" src={webpic} />
+               </div>
+
+           </div>
            <br/>
       </div>
  </div>
