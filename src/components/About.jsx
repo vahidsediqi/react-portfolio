@@ -1,11 +1,11 @@
 import React from 'react';
 import './componentStyles/main.css'
 import NavMenu from './Navbar';
-import about from './about.jpg';
+import about from './images/about.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PagesHero from './PagesHero';
 import Footer from './Footer';
-import '../hover.css'
+import '../hover.css';
+import PagesHero from './PagesHero';
 
 
 export const Services = () => {

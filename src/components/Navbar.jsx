@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import './componentStyles/main.css';
-import '../hover.css'
-import logo from './logo.png'
+import '../hover.css';
+import logo from './images/logo.png';
 
 
 const NavMenu = (props) => {
@@ -34,7 +34,10 @@ const NavMenu = (props) => {
               <Link className="text-light nav-link hvr-underline-from-center" to="/about">About</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <Link className="text-light nav-link hvr-underline-from-center" to="#">Portfolio</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="/portfolio">Portfolio</Link>
+            </NavItem>
+            <NavItem className="pr-5">
+              <Link className="text-light nav-link hvr-underline-from-center" to="/resume">Resume</Link>
             </NavItem>
             <NavItem>
               <Link className="text-light nav-link hvr-underline-from-center" to="/contacts">Contact</Link>

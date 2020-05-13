@@ -1,3 +1,13 @@
+import bookApp from './images/bookapp.png';
+import cacl from './images/calc.png';
+import disgners from './images/disgners.png';
+import h5 from './images/h5.png';
+import mcco from './images/mcco.png';
+import patric from './images/patric.png';
+import sui from './images/sui.png';
+
+
+
 export const PORTFOLIOS = [
     {
         title: "SUI Digital Coding Challenge",
@@ -5,7 +15,7 @@ export const PORTFOLIOS = [
         client: "SIU Digital",
         projectdate: "01 Feb, 2020",
         projectURL: "Hosted in github pages",
-        image: 'assets/images/sui.png',
+        image: sui,
         description: "This is a website Template by SUI Digital company"
    },
     {
@@ -14,7 +24,7 @@ export const PORTFOLIOS = [
         client: "Self Project",
         projectdate: "March, 2020",
         projectURL: "Hosted in github pages",
-        image: 'assets/images/calc.png',  
+        image: cacl,  
         description: "This Calculator is created in vanilla javascript"
     },
     {
@@ -23,7 +33,7 @@ export const PORTFOLIOS = [
         client: "Self Project",
         projectdate: "April, 2020",
         projectURL: "Hosted in github pages",
-        image: 'assets/images/bookapp.png',
+        image: bookApp,
         description: "This BookList is created in vanilla javascript"
     },
     {
@@ -32,7 +42,7 @@ export const PORTFOLIOS = [
         client: "h5 Organization",
         projectdate: "12 Aug, 2019",
         projectURL: "www.h5organization.com",
-        image: 'assets/images/h5.png',
+        image: h5,
         description: "I designed and hosted this website for H5 Organization company using HTML/Css/bootstrap and javascript", 
     },
     {
@@ -41,7 +51,7 @@ export const PORTFOLIOS = [
         client: "Distinctive Designs",
         projectdate: "12 Oct, 2019",
         projectURL: "www.distinctivedesignsbuilders.com",
-        image: 'assets/images/disgners.png',
+        image: disgners,
         description: "Distinctive is a design company located in United State of America, and i receive this project from JS DESIGNS website design company"
     },
     {
@@ -50,7 +60,7 @@ export const PORTFOLIOS = [
         client: "Mccoey Insurance",
         projectdate: "12 feb, 2019",
         projectURL: "www.mccoeyinsurance.com",
-        image: 'assets/images/mcco.png',
+        image: mcco,
         description: "Mccoey Insurance is an Insurance company located in United State of America, and i receive this project from JS DESIGNS website design company"
     },
     {
@@ -59,7 +69,7 @@ export const PORTFOLIOS = [
         client: "Jeanne Patrick Insurance",
         projectdate: "12 feb, 2019",
         projectURL: " www.jeannepatrickinsurance.com",
-        image: 'assets/images/mcco.png',
+        image: patric,
         description: "Jeanne Patrick Insurance An Insurance company located in United State of America, and i receive this project from JS DESIGNS website design company"
     }
 ]

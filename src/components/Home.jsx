@@ -1,6 +1,4 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import Portfolio from './Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './componentStyles/main.css'
 import '../App.css';

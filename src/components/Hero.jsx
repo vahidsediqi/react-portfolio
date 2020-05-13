@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button} from 'reactstrap';
-import mypic from './me.jpg'
+import mypic from './images/me.jpg'
 import './componentStyles/main.css'
 import '../hover.css'
 

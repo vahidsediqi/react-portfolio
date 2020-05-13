@@ -52,26 +52,33 @@ body{
     background-size: cover;
     color: white !important;
     text-align: center;
-    height: 95vh;
+    height: 100vh;
     margin-top: -50px;
 }
 
 .headshot {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    margin-top: 85px !important;
     text-align: center;
     border: 5px solid var(--main-color) !important;
 }
-
+/* Portfolio */
 #portfolio{
-    margin-top: 150px !important;
+    background-color: var(--second-color);
+    padding-top: 45px;
 }
+
 
 .hero-icons {
     font-size: 1.5rem !important;
     color: white;
     transition: ease-in-out 0.5s;
+}
+
+#portfolio .container .row .col-sm-12 span a{
+    color: var(--thirthColor) !important;
 }
 
 .hero-icons:hover {
@@ -164,3 +171,5 @@ body{
 #about-cards > .container > .row > .card {
   border: 0 !important;
 }
+
+

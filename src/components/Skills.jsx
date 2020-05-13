@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import { Jumbotron, Button} from 'reactstrap';
+import React from 'react';
 import './componentStyles/main.css'
-import webpic from './website.png'
+import webpic from './images/website.png'
 
 
 const Skills = () => {
@@ -96,9 +95,9 @@ const Skills = () => {
            </div>
            <br/> 
            <div className="row">
-           <div className="col-lg-6 col-md-12 mt-5">
+           <div className="col-lg-8 col-md-12 mt-5">
                     <h4>
-                       Waht is Mobile-first approach?
+                       What is Mobile-first approach?
                     </h4>
                     <div className="paragraph mt-3">It is the ideology that mobile design, as the hardest, should be done first. 
                       Once the mobile design questions are answered, designing for other devices will be easier.
@@ -108,8 +107,8 @@ const Skills = () => {
                      like bootstrap 4 and Materialize Css.
                      </div>
                </div>
-               <div className="col-lg-6 col-md-12">
-                   <img className=" img-thumbnail" src={webpic} />
+               <div className="col-lg-4 col-md-12 ml-auto">
+                   <img className="img-thumbnail" src={webpic} />
                </div>
 
            </div>
