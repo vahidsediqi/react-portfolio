@@ -56,6 +56,18 @@ body{
     margin-top: -50px;
 }
 
+@media(max-width: 375px) {
+    .hero{
+        height: 108vh;
+    }
+    .headshot{
+        height: 170px !important;
+        width: 170px !important;
+        margin-top: 30px !important;
+
+    }
+}
+
 .headshot {
     height: 200px;
     width: 200px;
