@@ -50,7 +50,6 @@ const Constacts = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
            </React.Fragment>
     )
 }

@@ -7,6 +7,7 @@ import 'font-awesome/css/font-awesome.css';
 import Constacts from './components/Contacts';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 
 
@@ -15,11 +16,10 @@ function App() {
     <React.Fragment>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
+        {/* <Route path="/portfolio" component={Portfolio} /> */}
         <Route path="/contacts" component={Constacts} />
         <Route path="/resume" component={Resume} />
-
-
+      <Footer />
     </React.Fragment>
   );
 }

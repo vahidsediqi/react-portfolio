@@ -7,7 +7,7 @@ import '../hover.css'
 
 const Hero = (props) => {
     return (
-      <div className="hero">
+      <div id="hero">
         <Jumbotron className="jumbo" >
            <div className="container">
            <img  className="headshot hvr-sweep-to-right" src={mypic} />

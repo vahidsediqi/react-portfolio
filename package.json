@@ -16,6 +16,9 @@
     "hover.css": "^2.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-grid-gallery": "^0.5.5",
+    "react-id-swiper": "^3.0.0",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"

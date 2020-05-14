@@ -92,9 +92,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-           <Services />
-            <Footer />
-            
+           <Services />            
         </React.Fragment>
     )
 }

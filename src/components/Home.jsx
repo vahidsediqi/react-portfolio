@@ -17,7 +17,6 @@ function Home() {
           <Skills />
           <More />
           <Services />
-          <Footer />
       </div>
   );
 }

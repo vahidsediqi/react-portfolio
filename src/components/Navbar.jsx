@@ -23,7 +23,7 @@ const NavMenu = (props) => {
     <div className="pb-5">
       <Navbar className="text-light fixed-top navigation" dark expand="md">
           <div className="container">
-          <NavbarBrand className="hvr-underline-from-left" href="/home"><img style={{height: "40px"}} src={logo} /></NavbarBrand>
+          <NavbarBrand className="hvr-underline-from-left" href="/home"><img style={{height: "70px"}} src={logo} /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -34,7 +34,7 @@ const NavMenu = (props) => {
               <Link className="text-light nav-link hvr-underline-from-center" to="/about">About</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <Link className="text-light nav-link hvr-underline-from-center" to="/portfolio">Portfolio</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="#">Portfolio</Link>
             </NavItem>
             <NavItem className="pr-5">
               <Link className="text-light nav-link hvr-underline-from-center" to="/resume">Resume</Link>
