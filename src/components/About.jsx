@@ -56,7 +56,7 @@ const About = () => {
     return (
         <React.Fragment>
             <NavMenu />
-            <PagesHero title="About" />
+            <PagesHero title="About" route="/about" />
             <div id="about" class="mt-5">
                 <div className="container">
                     <div className="row">

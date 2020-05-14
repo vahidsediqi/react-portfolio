@@ -19,74 +19,74 @@ const Skills = () => {
                </div>
            </div> */}
            <div className="row pb-3 border rounded skills-row">
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>HTML5 | CSS3</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "95%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>JavaScript</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "95%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Python</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "75%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Bootstrap</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark" role="progressbar" style={{width: "80%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Sass | Less</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "65%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>ReactJs</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "80%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>JQuery</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "80%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
 
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Flask</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "65%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>SQL</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "60%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Wordpress</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "75%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Github</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "70%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="70"></div>
                 </div>
                </div>
-               <div className="col-lg-4 col-md-6 col-sm-1 mt-3">
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
                    <span>Photoshop</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "60%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>

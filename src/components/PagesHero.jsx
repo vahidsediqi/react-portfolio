@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function PagesHero(props) {
   return (
       <div id="pages-hero">
-         <div className="container">
+         <div className="container mt-5 mb-5">
              <div className="row">
                  <div className="col-12">
                      <h1 className="text-light text-center display-4">Welcome</h1>
@@ -15,7 +15,7 @@ function PagesHero(props) {
                  <div  style={{fontSize: '25px'}} className="col-12 mt-4">
                  <span>
                        <Link className="text-light d-inline" to="/">Home /</Link>
-                       <Link className="text-light nav-link d-inline" to="/about">{props.title}</Link>
+                       <Link className="text-light nav-link d-inline" to={props.route}>{props.title}</Link>
                  </span>   
                  </div>
              </div>

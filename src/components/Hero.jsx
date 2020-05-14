@@ -9,7 +9,7 @@ const Hero = (props) => {
     return (
       <div className="hero">
         <Jumbotron className="jumbo" >
-           <div className="container" style={{marginTop: '80px'}}>
+           <div className="container">
            <img  className="headshot hvr-sweep-to-right" src={mypic} />
                 <h1 className="text-center mt-5">Hello, I am Vahid Sediqi</h1>
                   <p className="lead text-center">Front-end <span>Software Engineer,</span> Freelancer</p>

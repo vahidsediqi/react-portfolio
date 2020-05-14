@@ -9,7 +9,7 @@ const Constacts = () => {
 
            <React.Fragment>
                <NavMenu />
-               <PagesHero title="Contacts"/>
+               <PagesHero title="Contacts" route="/contacts"/>
                 <div id="contacts">
                     <div className="container">
                         <div className="row">
