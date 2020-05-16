@@ -1,30 +1,39 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.11b71213.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.95f9fbaf.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.95f9fbaf.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.23c4a112.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.23c4a112.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.346e9461.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.346e9461.js.map",
     "static/css/2.b754bf08.chunk.css": "/react-portfolio/static/css/2.b754bf08.chunk.css",
-    "static/js/2.7cca6025.chunk.js": "/react-portfolio/static/js/2.7cca6025.chunk.js",
-    "static/js/2.7cca6025.chunk.js.map": "/react-portfolio/static/js/2.7cca6025.chunk.js.map",
+    "static/js/2.8d506637.chunk.js": "/react-portfolio/static/js/2.8d506637.chunk.js",
+    "static/js/2.8d506637.chunk.js.map": "/react-portfolio/static/js/2.8d506637.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.d6fdc017b7f189ffb1278641de9b641b.js": "/react-portfolio/precache-manifest.d6fdc017b7f189ffb1278641de9b641b.js",
+    "precache-manifest.8ac43d91384e8cc3c54a5b28825fbf54.js": "/react-portfolio/precache-manifest.8ac43d91384e8cc3c54a5b28825fbf54.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.b754bf08.chunk.css.map": "/react-portfolio/static/css/2.b754bf08.chunk.css.map",
     "static/css/main.11b71213.chunk.css.map": "/react-portfolio/static/css/main.11b71213.chunk.css.map",
-    "static/js/2.7cca6025.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7cca6025.chunk.js.LICENSE.txt",
+    "static/js/2.8d506637.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8d506637.chunk.js.LICENSE.txt",
     "static/media/main.css": "/react-portfolio/static/media/slider.5e5046e4.jpg",
     "static/media/about.jpg": "/react-portfolio/static/media/about.bf5bc969.jpg",
+    "static/media/bookapp.png": "/react-portfolio/static/media/bookapp.b81e2595.png",
+    "static/media/calc.png": "/react-portfolio/static/media/calc.2b622e61.png",
+    "static/media/disgners.png": "/react-portfolio/static/media/disgners.76a14412.png",
     "static/media/font-awesome.css": "/react-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/gym.png": "/react-portfolio/static/media/gym.fc9ff57d.png",
+    "static/media/h5.png": "/react-portfolio/static/media/h5.466b928b.png",
+    "static/media/mcco.png": "/react-portfolio/static/media/mcco.614a505e.png",
     "static/media/me.jpg": "/react-portfolio/static/media/me.59e48ab2.jpg",
+    "static/media/nursing.png": "/react-portfolio/static/media/nursing.a206af35.png",
+    "static/media/patric.png": "/react-portfolio/static/media/patric.8615fd62.png",
+    "static/media/sui.png": "/react-portfolio/static/media/sui.e0a9eb94.png",
     "static/media/website.png": "/react-portfolio/static/media/website.e9ae3eca.png"
   },
   "entrypoints": [
     "static/js/runtime-main.346e9461.js",
     "static/css/2.b754bf08.chunk.css",
-    "static/js/2.7cca6025.chunk.js",
+    "static/js/2.8d506637.chunk.js",
     "static/css/main.11b71213.chunk.css",
-    "static/js/main.95f9fbaf.chunk.js"
+    "static/js/main.23c4a112.chunk.js"
   ]
 }
