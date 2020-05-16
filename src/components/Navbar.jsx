@@ -34,7 +34,7 @@ const NavMenu = (props) => {
               <Link className="text-light nav-link hvr-underline-from-center" to="/about">About</Link>
             </NavItem>
             <NavItem className="pr-5">
-              <Link className="text-light nav-link hvr-underline-from-center" to="#">Portfolio</Link>
+              <Link className="text-light nav-link hvr-underline-from-center" to="/portfolio">Portfolio</Link>
             </NavItem>
             <NavItem className="pr-5">
               <Link className="text-light nav-link hvr-underline-from-center" to="/resume">Resume</Link>

@@ -16,7 +16,7 @@ function App() {
     <React.Fragment>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
-        {/* <Route path="/portfolio" component={Portfolio} /> */}
+        <Route path="/portfolio" component={Portfolio} />
         <Route path="/contacts" component={Constacts} />
         <Route path="/resume" component={Resume} />
       <Footer />

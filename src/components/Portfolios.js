@@ -5,7 +5,8 @@ import h5 from './images/h5.png';
 import mcco from './images/mcco.png';
 import patric from './images/patric.png';
 import sui from './images/sui.png';
-
+import nursing from './images/nursing.png';
+import gym from './images/gym.png';
 
 
 export const PORTFOLIOS = [
@@ -71,5 +72,23 @@ export const PORTFOLIOS = [
         projectURL: " www.jeannepatrickinsurance.com",
         image: patric,
         description: "Jeanne Patrick Insurance An Insurance company located in United State of America, and i receive this project from JS DESIGNS website design company"
+    },
+    {
+        title: "Relief Nursing Services",
+        category: "Web Design",
+        client: "Relief Nursing Services",
+        projectdate: "02 April, 2020",
+        projectURL: "www.reliefnursingsf.com",
+        image: nursing,
+        description: ""
+    },
+    {
+        title: "Gym Website Template",
+        category: "Web Design",
+        client: "Gym Webite",
+        projectdate: "02 May, 2020",
+        projectURL: "https://vahidsediqi.github.io/day1/main/",
+        image: gym,
+        description: ""
     }
 ]
