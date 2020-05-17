@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
-import '../hover.css'
+import '../hover.css';
+import webdesgn from './images/webdesign.jpg';
+import cms from './images/cms.jpg';
+import webapp from './images/webapp.jpg';
+
+
 
 const More = () => {
     return(
@@ -10,36 +15,36 @@ const More = () => {
               </div>
               <div className="row mt-5">
                     <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
+                    <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={webapp} alt="Card image cap" />
                         <div className="card-body text-center">
-                            <div className="card-title"><i className="fa fa-html5 service-icon hvr-icon"></i></div>
-                            <h3 className="card-subtitle mb-2">Web Design</h3>
-                            <p className="card-text ">
+                            <h3 className="card-title">Web Apps</h3>
+                            <div className="paragraph">
                              I am expert in web designing using HTML,
                              Css and JavaScript, I use modern front-end 
                              technologies like ReactJs Bootstrap and Jquery to design 
                              a Responsive, Dynamic and animated website.
-                            </p>
+                            </div>
                         </div>
                     </div>
                      <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
+                     <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={cms} alt="Card image cap" />
                         <div className="card-body text-center">
-                            <div className="card-title"><i className="fa fa-wordpress service-icon hvr-icon"></i></div>
-                            <h3 className="card-subtitle mb-2">CMS</h3>
-                            <p className="card-text">
+                            <h3 className="card-title">CMS</h3>
+                            <div className="paragraph">
                             I am comfortable working with CMS like Wordpress,
                              Shopify and OpenCart using elementor wordpress page builder
                              to build responsive Website
-                            </p>
+                            </div>
                         </div>
                   </div>
                   <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
+                  <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={webdesgn} alt="Card image cap" />
                         <div className="card-body text-center">
-                            <div className="card-title"><i className="fa fa-mobile service-icon hvr-icon"></i></div>
-                            <h3 className="card-subtitle mb-2">Web Apps</h3>
-                            <p className="card-text">
+                            <h3 className="card-title">Web Apps</h3>
+                            <div className="paragraph">
                             I have more than 4 year of experience OOP like JavaScript, C++ and python
                             and I build web apps using flask python library and SQL for backend for building web apps
-                            </p>
+                            </div>
                         </div>
                     </div>
               </div>

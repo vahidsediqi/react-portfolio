@@ -1,6 +1,5 @@
 import React from 'react';
 import './componentStyles/main.css'
-import webpic from './images/website.png'
 
 
 const Skills = () => {
@@ -9,7 +8,13 @@ const Skills = () => {
       <div className="container">
            <div className="row">
                <h1 className="display-4 text-center col-12 mt-5">Skills</h1>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quis officia deleniti maiores eos aperiam dicta ratione hic ducimus nostrum obcaecati doloremque illo, cum praesentium.</p>
+               <p className="paragraph">
+                Hard-working Front-end web developer with a flair for creating elegant solutions
+                in the least amount of time. Developed Responsive landing pages, customer web portal, 
+                 documentary launch website, and donations webapp for a local charity.
+                 Passionate about software architecture and cloud computing. 
+                 Regular attendee of web developer meetups and hackathons.
+               </p>
            </div>
            {/* <div className="row">
                <div className="col-12  text-center">
@@ -95,22 +100,6 @@ const Skills = () => {
            </div>
            <br/> 
            <div className="row">
-           <div className="col-lg-8 col-md-12 mt-5">
-                    <h4>
-                       What is Mobile-first approach?
-                    </h4>
-                    <div className="paragraph mt-3">It is the ideology that mobile design, as the hardest, should be done first. 
-                      Once the mobile design questions are answered, designing for other devices will be easier.
-                     What it boils down to is that, the smallest of the designs will have only the essential features,
-                     so right away you have designed the heart of your UX.
-                     I will design a fully responsive website (Mobile-first approach) website that fits all screen sizes with latest technology
-                     like bootstrap 4 and Materialize Css.
-                     </div>
-               </div>
-               <div className="col-lg-4 col-md-12 ml-auto">
-                   <img className="img-thumbnail" src={webpic} />
-               </div>
-
            </div>
            <br/>
       </div>

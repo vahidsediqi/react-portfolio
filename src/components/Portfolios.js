@@ -11,34 +11,34 @@ import gym from './images/gym.png';
 
 export const PORTFOLIOS = [
     {
-        title: "SUI Digital Coding Challenge",
+        title: "Coding Test",
         category: "Web Design",
         client: "SIU Digital",
         projectdate: "01 Feb, 2020",
-        projectURL: "Hosted in github pages",
+        projectURL: "https://vahidsediqi.github.io/siu-digital-coding-test/home/",
         image: sui,
-        description: "This is a website Template by SUI Digital company"
+        description: "I designed this wesite for SIU Digital company as a coding Test"
    },
     {
-        title: "Calculator Application in JavaScript",
+        title: "Calculator in JavaScript",
         category: "JavaScript App",
         client: "Self Project",
         projectdate: "March, 2020",
-        projectURL: "Hosted in github pages",
+        projectURL: "https://vahidsediqi.github.io/calculator/",
         image: cacl,  
-        description: "This Calculator is created in vanilla javascript"
+        description: "I Developed this app using vanilla javaScript"
     },
     {
-        title: "BookList Application in JavaScript",
+        title: "BookList App in JavaScript",
         category: "JavaScript App",
         client: "Self Project",
         projectdate: "April, 2020",
-        projectURL: "Hosted in github pages",
+        projectURL: "https://vahidsediqi.github.io/book-list-app/",
         image: bookApp,
-        description: "This BookList is created in vanilla javascript"
+        description: "I Developed this app using vanilla javaScript"
     },
     {
-        title: "Website fo H5 Organization company", 
+        title: "H5 website", 
         category: "Web Design",
         client: "h5 Organization",
         projectdate: "12 Aug, 2019",
@@ -47,13 +47,13 @@ export const PORTFOLIOS = [
         description: "I designed and hosted this website for H5 Organization company using HTML/Css/bootstrap and javascript", 
     },
     {
-        title: "Distinctive Designs company website",
+        title: "Distinctive Website",
         category: "Web Design",
         client: "Distinctive Designs",
         projectdate: "12 Oct, 2019",
         projectURL: "www.distinctivedesignsbuilders.com",
         image: disgners,
-        description: "Distinctive is a design company located in United State of America, and i receive this project from JS DESIGNS website design company"
+        description: "A website project from JS Designs company"
     },
     {
         title: "Mccoey Insurance Website",
@@ -62,16 +62,16 @@ export const PORTFOLIOS = [
         projectdate: "12 feb, 2019",
         projectURL: "www.mccoeyinsurance.com",
         image: mcco,
-        description: "Mccoey Insurance is an Insurance company located in United State of America, and i receive this project from JS DESIGNS website design company"
+        description: "A website project from JS Designs company"
     },
     {
-        title: "Jeanne Patrick Insurance Website",
+        title: "Jeanne Patrick Website",
         category: "Web Design",
         client: "Jeanne Patrick Insurance",
         projectdate: "12 feb, 2019",
         projectURL: " www.jeannepatrickinsurance.com",
         image: patric,
-        description: "Jeanne Patrick Insurance An Insurance company located in United State of America, and i receive this project from JS DESIGNS website design company"
+        description: "A website project from JS Designs company"
     },
     {
         title: "Relief Nursing Services",
@@ -80,7 +80,7 @@ export const PORTFOLIOS = [
         projectdate: "02 April, 2020",
         projectURL: "www.reliefnursingsf.com",
         image: nursing,
-        description: ""
+        description: "A website project from JS Designs company"
     },
     {
         title: "Gym Website Template",
@@ -89,6 +89,6 @@ export const PORTFOLIOS = [
         projectdate: "02 May, 2020",
         projectURL: "https://vahidsediqi.github.io/day1/main/",
         image: gym,
-        description: ""
+        description: "A website Template, Designed for Gym and Fitness center"
     }
 ]

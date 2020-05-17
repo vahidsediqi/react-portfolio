@@ -3,9 +3,10 @@ import './componentStyles/main.css'
 import NavMenu from './Navbar';
 import about from './images/about.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer';
 import '../hover.css';
 import PagesHero from './PagesHero';
+import { Link } from 'react-router-dom';
+
 
 
 export const Services = () => {
@@ -28,21 +29,33 @@ export const Services = () => {
                 <div className="card-body text-center">
                     <div className="card-title"><i className="fa fa-briefcase service-icon"></i></div>
                     <h3 className="card-subtitle mb-2">Want An Expert</h3>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div className="paragraph">
+                    Do you want to have a modern and responsive website?
+                    Do you want to see your website in first page of google while searching? 
+                    so you are in the right place 
+                    </div>
                 </div>
             </div>
              <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{width: "18rem"}}>
                 <div className="card-body text-center">
                     <div className="card-title"><i className="fa fa-shield service-icon"></i></div>
                     <h3 className="card-subtitle mb-2">Unlimited Revisions</h3>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div className="paragraph">
+                    After your order delivery, 
+                    You can review your website multiple times until your not satisfied,
+                    you can request for change or redesign 
+                    </div>
                 </div>
           </div>
           <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{width: "18rem"}}>
                 <div className="card-body text-center">
                     <div className="card-title"><i className="fa fa-dollar service-icon"></i></div>
                     <h3 className="card-subtitle mb-2">Let's Discuss</h3>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div className="paragraph">
+                           Do you have any project in mind?
+                           feel free to contact me for details
+                        </div>
+                    <Link to='/contacts'>Contact Now</Link>
                 </div>
             </div>
             </div>
