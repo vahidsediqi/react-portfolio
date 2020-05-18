@@ -39,7 +39,7 @@ export const Services = () => {
              <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{width: "18rem"}}>
                 <div className="card-body text-center">
                     <div className="card-title"><i className="fa fa-shield service-icon"></i></div>
-                    <h3 className="card-subtitle mb-2">Unlimited Revisions</h3>
+                    <h4 className="card-subtitle mb-2">Unlimited Revisions</h4>
                     <div className="paragraph">
                     After your order delivery, 
                     You can review your website multiple times until your not satisfied,
