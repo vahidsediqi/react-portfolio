@@ -40,19 +40,18 @@ class Resume extends Component {
                                        contractor web designer that is a web development company in United 
                                        State of America
                                    </li>
-                                   <li className="list-group-item" style={fontSize}>
-                                       <strong className="title">WEB MASTER, SOCIAL MEDIA MANAGER</strong> <br/>
-                                       <span className="text-muted">2017 - 2019</span> <br/>
-                                       <span>California, US</span> <br/>
-                                       Since Feb 2019 I am working for JS Designs company as an independent
-                                       contractor web designer that is a web development company in United 
-                                       State of America
-                                   </li>
+
                                    <li className="list-group-item" style={fontSize}>
                                        <strong className="title">FULL TIME FREELANCER</strong> <br/>
                                        <span className="text-muted">2016 - Present</span> <br/>
                                        <span>Worldwide</span> <br/>
                                        since 2016 I work as a Freelancer web developer I design and develop website for small businesses
+                                   </li>
+                                   <li className="list-group-item" style={fontSize}>
+                                       <strong className="title">GIS Manager, office clerk</strong> <br/>
+                                       <span className="text-muted">2008 - 2016</span> <br/>
+                                       <span>Kabul, Afghanistan</span> <br/>
+                                       I have more than 8 years of experience in office management andGIS management in kabul afghanistan
                                    </li>
                                </ul>
                            </div>

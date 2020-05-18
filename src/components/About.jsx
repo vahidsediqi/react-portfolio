@@ -15,8 +15,9 @@ export const Services = () => {
         <div className="container">
             <div className="row mt-5">
                 <div className="col-12">
-                    <h1 className=" title">Services I provide</h1>
-                    <div className=" paragraph">I will design and develop fully dynamic and responsive Website or
+                    <h1 className=" title">Services I provide <span className='dot'></span></h1>
+                    <div className=" paragraph">
+                        I will design and develop fully dynamic and responsive Website or
                         Landing Page for you that will be eye catching, responsive, 
                         Google-friendly and affordable price.
                         I am a Website Developer having 5+ years of professional 
@@ -74,12 +75,15 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 mt-5 mb-5">
-                            <h1 className="display-3 title">About Me</h1>
-                                <div className="text-left paragraph">My name is <strong style={{color: 'orangered'}}>Vahid Sediqi.</strong>I am a creative, artistic and ambitious Sorftware Engineer with a talent for
+                            <h1 className="display-4 title">About Me <span className='dot'></span></h1>
+                                <div className="text-left paragraph">
+                                My name is <strong style={{color: 'orangered'}}>Vahid Sediqi.</strong>
+                                I am a creative, artistic and ambitious Sorftware Engineer with a talent for
                                 thinking outside the box and coming up with innovative ideas and designs.
                                 I have been working in the web design industry for the past 5 years.
                                 I pride myself in providing excellent service to all stakeholders 
-                                and seeing the positive impact I make in people’s lives and businesses.</div>
+                                and seeing the positive impact I make in people’s lives and businesses.
+                                </div>
                         </div>
                     </div>
                     <div className="row">

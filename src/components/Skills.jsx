@@ -7,14 +7,14 @@ const Skills = () => {
      <div id="skills">
       <div className="container">
            <div className="row">
-               <h1 className="display-4 text-center col-12 mt-5">Skills</h1>
-               <p className="paragraph">
+               <h1 className="display-4 col-12 mt-5 title">Skills <span className='dot'></span></h1>
+               <div className="paragraph p-2">
                 Hard-working Front-end web developer with a flair for creating elegant solutions
                 in the least amount of time. Developed Responsive landing pages, customer web portal, 
                  documentary launch website, and donations webapp for a local charity.
                  Passionate about software architecture and cloud computing. 
                  Regular attendee of web developer meetups and hackathons.
-               </p>
+               </div>
            </div>
            {/* <div className="row">
                <div className="col-12  text-center">
