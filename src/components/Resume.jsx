@@ -28,12 +28,12 @@ class Resume extends Component {
                               of working in the arts and crafts industry. Skilled in JavaScript and ReactJs. </div>
                            </div>
                        </div>
-                       <div className="row">
+                       <div className="row mt-4">
                            <div className="col-lg-6 col-md-6">
-                               <h1 className="text-light">Work Experience</h1>
+                               <h1 className="title">Work Experience</h1>
                                <ul className="list-group p-3">
                                    <li className="list-group-item" style={fontSize}>
-                                       <strong>FRONT-END WEB DEVELOPER</strong> <br/>
+                                       <strong className="title">FRONT-END WEB DEVELOPER</strong> <br/>
                                        <span className="text-muted">2019 - Present</span> <br/>
                                        <span>California, US</span> <br/>
                                        Since Feb 2019 I am working for <a href="https://jsdesigns.site/">JS Designs</a> company as an independent
@@ -41,7 +41,7 @@ class Resume extends Component {
                                        State of America
                                    </li>
                                    <li className="list-group-item" style={fontSize}>
-                                       <strong>WEB MASTER, SOCIAL MEDIA MANAGER</strong> <br/>
+                                       <strong className="title">WEB MASTER, SOCIAL MEDIA MANAGER</strong> <br/>
                                        <span className="text-muted">2017 - 2019</span> <br/>
                                        <span>California, US</span> <br/>
                                        Since Feb 2019 I am working for JS Designs company as an independent
@@ -49,7 +49,7 @@ class Resume extends Component {
                                        State of America
                                    </li>
                                    <li className="list-group-item" style={fontSize}>
-                                       <strong>FULL TIME FREELANCER</strong> <br/>
+                                       <strong className="title">FULL TIME FREELANCER</strong> <br/>
                                        <span className="text-muted">2016 - Present</span> <br/>
                                        <span>Worldwide</span> <br/>
                                        since 2016 I work as a Freelancer web developer I design and develop website for small businesses
@@ -57,27 +57,27 @@ class Resume extends Component {
                                </ul>
                            </div>
                            <div className="col-lg-6 col-md-6">
-                               <h1 className="text-light">Education</h1>
+                               <h1 className="title">Education</h1>
                                <ul className="list-group p-3">
                                    <li className="list-group-item" style={fontSize}>
-                                        AHMAD SHAH ABDALI HIGH SCHOOL <br/>
+                                       <strong className="title"> AHMAD SHAH ABDALI HIGH SCHOOL </strong><br/>
                                         <span className="text-muted">1996 - 2008</span>
                                    </li>
                                    <li className="list-group-item" style={fontSize}>
-                                        BACHELOR OF SOFTWAR ENGINEERING <br/>
+                                       <strong className="title">BACHELOR OF SOFTWAR ENGINEERING</strong> <br/>
                                         <span className="text-muted">2013 - 2016</span> <br/>
                                         <span>
                                         Because of some physical security problems, I couldn’t finish the bachelor degree so in 2017 when I was in 8th semester I left my country
                                         </span>
                                    </li>
                                    <li className="list-group-item" style={fontSize}>
-                                         ONLINE COURSES AND CODING BOOTCAMPS  <br/>
+                                        <strong className="title">ONLINE COURSES AND CODING BOOTCAMPS</strong> <br/>
                                         <span className="text-muted">2014 - 2019</span> <br/>
                                         <span>
                                         As I am a self-taught programmer and web developer, since 2014 I have completed too many online courses and received authorized certificates from Coursera.com                                        </span>
                                    </li>
                                    <li className="list-group-item pl-5" style={fontSize} >
-                                         <h3>Languages</h3>
+                                         <h3 className="title">Languages</h3>
                                         <li>
                                             English  <span className="badge badge-warning">Advanced</span>
                                         </li>

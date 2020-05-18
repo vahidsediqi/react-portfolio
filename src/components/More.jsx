@@ -14,7 +14,7 @@ const More = () => {
                   <h1 className="col-12 text-center text-light">I'm Available For Hire</h1>
               </div>
               <div className="row mt-5">
-                    <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
+                    <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
                     <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={webapp} alt="Card image cap" />
                         <div className="card-body text-center">
                             <h3 className="card-title">Web Apps</h3>
@@ -26,7 +26,7 @@ const More = () => {
                             </div>
                         </div>
                     </div>
-                     <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
+                     <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
                      <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={cms} alt="Card image cap" />
                         <div className="card-body text-center">
                             <h3 className="card-title">CMS</h3>
@@ -37,7 +37,7 @@ const More = () => {
                             </div>
                         </div>
                   </div>
-                  <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-grow-rotate" style={{width: "18rem"}}>
+                  <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
                   <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={webdesgn} alt="Card image cap" />
                         <div className="card-body text-center">
                             <h3 className="card-title">Web Apps</h3>

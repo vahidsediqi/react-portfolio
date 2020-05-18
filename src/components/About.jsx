@@ -15,8 +15,8 @@ export const Services = () => {
         <div className="container">
             <div className="row mt-5">
                 <div className="col-12">
-                    <h1 className="text-center">Services I provide</h1>
-                    <div className="text-center paragraph">I will design and develop fully dynamic and responsive Website or
+                    <h1 className=" title">Services I provide</h1>
+                    <div className=" paragraph">I will design and develop fully dynamic and responsive Website or
                         Landing Page for you that will be eye catching, responsive, 
                         Google-friendly and affordable price.
                         I am a Website Developer having 5+ years of professional 
@@ -74,8 +74,8 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 mt-5 mb-5">
-                            <h1 className="display-3">About Me</h1>
-                                <div className="text-left paragraph">I am a creative, artistic and ambitious Sorftware Engineer with a talent for
+                            <h1 className="display-3 title">About Me</h1>
+                                <div className="text-left paragraph">My name is <strong style={{color: 'orangered'}}>Vahid Sediqi.</strong>I am a creative, artistic and ambitious Sorftware Engineer with a talent for
                                 thinking outside the box and coming up with innovative ideas and designs.
                                 I have been working in the web design industry for the past 5 years.
                                 I pride myself in providing excellent service to all stakeholders 
@@ -87,7 +87,7 @@ const About = () => {
                             <img class="img-fluid img-thumbnail"  src={about} />
                         </div>
                         <div className="col-lg-8 col-md-12 col-sm-12 mt-4 ">
-                           <h1 className="mt-3">Front-end Developer</h1>
+                           <h1 className="mt-3 title">Front-end Developer</h1>
                            <div className="row">
                            <ul class="list-group col-lg-6 col-sm-12">
                                 <li class="list-group-item"><strong>Full Name: </strong>Waheedullah Sediqi</li>

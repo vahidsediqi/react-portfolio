@@ -9,8 +9,8 @@ function PagesHero(props) {
       <div id="pages-hero">
          <div className="container mt-5 mb-5">
              <div className="row">
-                 <div className="col-12 text-center">
-                     <h1 className="text-light text-center display-4">Welcome</h1>
+                 <div className="col-12">
+                     <h1 className="text-light display-4 title">Welcome</h1>
 
                 </div>
                  <div  style={{fontSize: '25px'}} className="col-12 mt-4">

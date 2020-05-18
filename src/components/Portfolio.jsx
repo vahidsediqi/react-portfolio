@@ -19,7 +19,7 @@ class Protfolio extends Component {
                     <div className="card-group">
                         <img class="card-img-top" src={mywork.image} alt="Card image cap" />
                         <div class="card-body">
-                            <h3>{mywork.title}</h3>
+                            <h3 className="title">{mywork.title}</h3>
                             <div class="card-text paragraph">
                               {mywork.description}
                             </div>
