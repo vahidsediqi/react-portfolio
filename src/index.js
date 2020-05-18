@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Router  } from 'react-router-dom'
 import './index.css';
-import ScrollToTop from './components/ScrollToTop';
 import App from './App';
 
 
