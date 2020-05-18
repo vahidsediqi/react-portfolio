@@ -17,7 +17,7 @@ const Footer = () => {
 
                     <div className="row">
                     <div className="col-12">
-                    <p>© 2020 Vahid.tech All rights reserved | Designed by Vahid Sediqi</p>
+                    <p>© 2020 <a style={{color: "orangered", fontSize:'18px'}} href="https://vahid.tech/">Vahid.tech</a> All rights reserved <strong style={{color: "orangered", fontSize:'18px'}}>|</strong> Designed by Vahid Sediqi</p>
                     </div>
                     </div>
                 </div>

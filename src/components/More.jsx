@@ -17,12 +17,9 @@ const More = () => {
                     <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
                     <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={webapp} alt="Card image cap" />
                         <div className="card-body text-center">
-                            <h3 className="card-title">Web Apps</h3>
+                            <h3 className="card-title">WEB DESIGN</h3>
                             <div className="paragraph">
-                             I am expert in web designing using HTML,
-                             Css and JavaScript, I use modern front-end 
-                             technologies like ReactJs Bootstrap and Jquery to design 
-                             a Responsive, Dynamic and animated website.
+                            I am an expert in designing websites using HTML, CSS and JavaScript. I use modern frontend technologies like React, Bootstrap and jQuery to design a dynamic, responsive and mobile-friendly website.
                             </div>
                         </div>
                     </div>
@@ -40,10 +37,9 @@ const More = () => {
                   <div className="card rounded col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
                   <img class="card-img-top hvr-icon" style={{borderRadius: '50%'}} src={webdesgn} alt="Card image cap" />
                         <div className="card-body text-center">
-                            <h3 className="card-title">Web Apps</h3>
+                            <h3 className="card-title">WEB APPS</h3>
                             <div className="paragraph">
-                            I have more than 4 year of experience OOP like JavaScript, C++ and python
-                            and I build web apps using flask python library and SQL for backend for building web apps
+                            I have 4+ years of OOP experience using JavaScript, C++ and Python. I build web applications using Flask and SQL for backend and JavaScript and React for frontend.
                             </div>
                         </div>
                     </div>
