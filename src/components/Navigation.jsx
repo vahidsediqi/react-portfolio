@@ -6,9 +6,8 @@ import '../hover.css';
 import logo from './images/logo.png';
 
 
-const NavMenu = (props) => {
+const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggle = () => setIsOpen(!isOpen);
    
   // const navStyle = {
@@ -51,4 +50,4 @@ const NavMenu = (props) => {
   );
 }
 
-export default NavMenu;
+export default Navigation;

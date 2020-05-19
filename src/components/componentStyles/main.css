@@ -14,7 +14,7 @@ body{
 }
 
 a:hover {
-    color: orangered !important;
+    color: var(--thirthColor) !important;
     text-decoration: none;
 }
 .title {
@@ -29,14 +29,14 @@ h1,h2,h3,h4{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: orangered;
+    background-color: var(--thirthColor);
     display: inline-block;
     margin-bottom: -7px;
 }
 .title::after{
     height: 2px;
     width: 150px;
-    background: orangered;
+    background: var(--thirthColor);
     content: "";
     display: block;
 }
@@ -59,7 +59,7 @@ h1,h2,h3,h4{
 }
 
 .nav-link:hover{
-  color: orangered !important;
+  color: var(--thirthColor) !important;
 }
 
 @media(max-width: 765px) {
@@ -93,7 +93,7 @@ h1,h2,h3,h4{
 
 .hero-icons:hover {
     transform: scale(1.2) !important; 
-    color: orangered;
+    color: var(--thirthColor);
 }
 
 @media(min-width: 1100px) {
@@ -171,7 +171,7 @@ h1,h2,h3,h4{
 .service-icon {
     font-size: 4rem !important;
     border-radius: 50%;
-    color:orangered;
+    color:var(--thirthColor);
 }
 
 

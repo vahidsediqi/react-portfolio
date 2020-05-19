@@ -1,8 +1,6 @@
 import React, { Component, useState }from 'react';
 import { PORTFOLIOS } from './Portfolios';
 import PagesHero from './PagesHero';
-import NavMenu from './Navbar';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
   
 class Protfolio extends Component {
   constructor () {
@@ -34,7 +32,6 @@ class Protfolio extends Component {
       })
       return (
           <div>
-              <NavMenu />
               <PagesHero title="Portfolio"/>
               <div id="portfolio">
                 <div className="container">

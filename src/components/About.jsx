@@ -1,6 +1,5 @@
 import React from 'react';
 import './componentStyles/main.css'
-import NavMenu from './Navbar';
 import about from './images/about.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../hover.css';
@@ -69,7 +68,6 @@ const About = () => {
   
     return (
         <React.Fragment>
-            <NavMenu />
             <PagesHero title="About" route="/about" />
             <div id="about" class="mt-5">
                 <div className="container">

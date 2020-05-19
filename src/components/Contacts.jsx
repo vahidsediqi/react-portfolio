@@ -1,14 +1,11 @@
 import React from 'react';
 import './componentStyles/main.css'
 import PagesHero from './PagesHero';
-import NavMenu from './Navbar';
-import Footer from './Footer';
 
 const Constacts = () => {
     return (
 
            <React.Fragment>
-               <NavMenu />
                <PagesHero title="Contacts" route="/contacts"/>
                 <div id="contacts">
                     <div className="container">

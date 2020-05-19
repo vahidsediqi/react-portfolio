@@ -2,10 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './componentStyles/main.css'
 import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 
 function PagesHero(props) {
   return (
+<>
+    <Navigation />
       <div id="pages-hero">
          <div className="container mt-5 mb-5">
              <div className="row">
@@ -22,6 +25,7 @@ function PagesHero(props) {
              </div>
          </div>
       </div>
+    </>
   );
 }
 

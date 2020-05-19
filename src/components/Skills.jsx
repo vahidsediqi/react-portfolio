@@ -25,7 +25,7 @@ const Skills = () => {
            </div> */}
            <div className="row pb-3 border rounded skills-row">
                <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
-                   <span>HTML5 | CSS3</span>
+                   <span className='skills-label'>HTML5 | CSS3</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "95%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
