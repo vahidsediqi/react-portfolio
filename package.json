@@ -12,6 +12,7 @@
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
+    "framer-motion": "^1.11.0",
     "github-pages": "^3.0.2",
     "hover.css": "^2.3.2",
     "react": "^16.13.1",

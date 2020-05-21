@@ -1,6 +1,7 @@
 import React, { Component, useState }from 'react';
 import { PORTFOLIOS } from './Portfolios';
 import PagesHero from './PagesHero';
+import { motion } from "framer-motion"
   
 class Protfolio extends Component {
   constructor () {
@@ -11,6 +12,21 @@ class Protfolio extends Component {
   }
  
   render() {
+    const pageVariants = {
+      in: {
+        opacity: 1,
+        x: 0
+      },
+      out: {
+        opacity: 0,
+        x: "-100vw"
+      }
+    }
+  
+    const pageTransition = {
+      duration: 0.5
+    }
+    
      const myWorks = this.state.portfolio.map(mywork => {
              return (
                 <div class="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem", border: '0', opacity: '5'}}>
@@ -24,15 +40,17 @@ class Protfolio extends Component {
                             <span className="text-muted d-block">
                                 {mywork.projectdate}
                             </span>
-                          <a href={mywork.projectURL}>More</a>
+                          <a href={mywork.projectURL}>Open The Wesite</a>
                         </div>
                     </div>
                 </div>
              )
       })
       return (
-          <div>
-              <PagesHero title="Portfolio"/>
+        <motion.div initial="out" animate="in" exit="out"
+        transition={pageTransition}
+        variants={pageVariants}>              
+      <PagesHero title="Portfolio"/>
               <div id="portfolio">
                 <div className="container">
                     <div className="row">
@@ -46,7 +64,7 @@ class Protfolio extends Component {
                     </div>
                 </div>
               </div>
-          </div>
+          </motion.div>
       )
   }
 }

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../hover.css';
 import PagesHero from './PagesHero';
 import { Link } from 'react-router-dom';
-
+import { motion } from "framer-motion"
 
 
 export const Services = () => {
@@ -65,10 +65,26 @@ export const Services = () => {
 }
 //  Serives ends
 const About = () => {
-  
+    const pageVariants = {
+        in: {
+          opacity: 1,
+          x: 0
+        },
+        out: {
+          opacity: 0,
+          x: "-100vw"
+        }
+      }
+    
+      const pageTransition = {
+        duration: 0.5
+      }
+
     return (
-        <React.Fragment>
-            <PagesHero title="About" route="/about" />
+      <motion.div initial="out" animate="in" exit="out"
+       transition={pageTransition}
+       variants={pageVariants}>  
+    <PagesHero title="About" route="/about" />
             <div id="about" class="mt-5">
                 <div className="container">
                     <div className="row">
@@ -108,7 +124,7 @@ const About = () => {
                 </div>
             </div>
            <Services />            
-        </React.Fragment>
+        </motion.div>
     )
 }
 

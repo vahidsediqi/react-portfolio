@@ -1,12 +1,29 @@
 import React from 'react';
 import './componentStyles/main.css'
 import PagesHero from './PagesHero';
+import { motion } from "framer-motion"
 
 const Constacts = () => {
-    return (
+    const pageVariants = {
+        in: {
+          opacity: 1,
+          x: 0
+        },
+        out: {
+          opacity: 0,
+          x: "-100vw"
+        }
+      }
+    
+      const pageTransition = {
+        duration: 0.5
+      }
 
-           <React.Fragment>
-               <PagesHero title="Contacts" route="/contacts"/>
+    return (
+        <motion.div initial="out" animate="in" exit="out"
+        transition={pageTransition}
+        variants={pageVariants}>               
+    <PagesHero title="Contacts" route="/contacts"/>
                 <div id="contacts">
                     <div className="container">
                         <div className="row">
@@ -47,7 +64,7 @@ const Constacts = () => {
                         </div>
                     </div>
                 </div>
-           </React.Fragment>
+           </motion.div>
     )
 }
 

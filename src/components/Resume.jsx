@@ -2,21 +2,39 @@ import React, { Component, Fragment } from 'react';
 import PagesHero from './PagesHero';
 import Skills from './Skills';
 import More from './More';
+import { motion } from "framer-motion"
 
 
 class Resume extends Component {
-  
 
     render() {
+
         const fontSize = {
             fontSize: '18px'
         }
         const maxWidth = {
             maxWidth: "550px"  
         }
+
+        const pageVariants = {
+            in: {
+              opacity: 1,
+              x: 0
+            },
+            out: {
+              opacity: 0,
+              x: "-100vw"
+            }
+          }
+        
+          const pageTransition = {
+            duration: 0.5
+          }
         return (
-            <Fragment>
-               <PagesHero title="Resume"/>
+            <motion.div initial="out" animate="in" exit="out"
+            transition={pageTransition}
+            variants={pageVariants}>               
+        <PagesHero title="Resume"/>
                <div id="resume">
                    <div className="container">
                        <div className="row">
@@ -93,7 +111,7 @@ class Resume extends Component {
                </div>
                <Skills />
             <More />
-            </Fragment>
+        </motion.div>
         )
     }
 }
