@@ -103,12 +103,12 @@ h1,h2,h3,h4{
 }
 
 .headshot {
-    height: 170px;
-    width: 170px;
+    height: 185px;
+    width: 185px;
     border-radius: 50%;
     margin-top: 150px !important;
     text-align: center;
-    border: 5px solid var(--main-color) !important;
+    /* border: 5px solid var(--main-color) !important; */
 }
 /* Portfolio */
 #portfolio{
@@ -131,6 +131,12 @@ h1,h2,h3,h4{
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
 }
 
+.card-img {
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center;
+    box-sizing: border-box;
+}
 /* subpages Hero */
 #pages-hero {
     margin-top: -50px;
