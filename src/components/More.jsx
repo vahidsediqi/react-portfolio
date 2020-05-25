@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../hover.css';
-import webdesgn from './images/webdesign.jpg';
-import cms from './images/cms.jpg';
+import webdesgn from './images/features-3.svg';
+import cms from './images/features-4.svg';
 import webapp from './images/webapp.jpg';
 
 
@@ -15,7 +15,7 @@ const More = () => {
               </div>
               <div className="row mt-5">
                     <div className="card p-0 col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
-                        <img class="card-img card-img-top hvr-icon"  src={webapp} alt="web design" />
+                        <img class="card-img card-img-top hvr-icon"  src={webdesgn} alt="web design" />
                         <h3 className="card-title text-center mt-3">WEB DESIGN</h3>
                             <div className="card-body text-center">
                                 <div className="paragraph">
@@ -36,7 +36,7 @@ const More = () => {
                             </div>
                   </div>
                   <div className="card p-0 col-lg-4 col-md-12 col-sm-12 col-xs-12 hvr-icon-forward" style={{width: "18rem"}}>
-                    <img class="card-img card-img-top hvr-icon" src={webdesgn} alt="web apps" />
+                    <img class="card-img card-img-top hvr-icon" src={webapp} alt="web apps" />
                     <h3 className="card-title text-center mt-3">WEB APPS</h3>
                             <div className="card-body text-center">
                                 <div className="paragraph">

@@ -24,12 +24,25 @@ export default class MyForm extends React.Component {
           <div className="form-group">
             <input className="form-control form-control-lg mt-4" required type="email" name="email" placeholder="Your Email." />
           </div>
-          
+
           <div className="form-group">
-            <textarea className="form-control form-control-lg mt-4" required name="name" placeholder="Your Message."></textarea>
+            <input className="form-control form-control-lg mt-4" required type="mobile" name="email" placeholder="Your Mobile Number." />
           </div>
-
-
+            
+          <div class="input-group mb-3">
+                <select className="custom-select" id="inputGroupSelect02">
+                  <option selected>Select Serive</option>
+                  <option value="web design">Web Design</option>
+                  <option value="wordpress design">Wordpress Design</option>
+                  <option value="others">Others</option>
+                </select>
+              <div className="input-group-append">
+                <label className="input-group-text" for="inputGroupSelect02">Options</label>
+              </div>
+        </div> 
+          <div className="form-group">
+            <textarea className="form-control form-control-lg mt-4" required name="message" placeholder="Your Message."></textarea>
+          </div>
         {status === "SUCCESS" ? <p className="p-3 text-light" style={{backgroundColor: 'orangered'}}>
             Thank you for your enquiry I will get back to you as soon as possible <br/> <strong>Vahid Sediqi</strong>
             </p> : <button className="btn btn-outline-secondary">Submit</button>}
