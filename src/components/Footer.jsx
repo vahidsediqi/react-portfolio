@@ -1,9 +1,6 @@
 import React from 'react';
 import './componentStyles/main.css'
 import { Link } from 'react-router-dom';
-import Protfolio from './Portfolio';
-import Resume from './Resume';
-import Constacts from './Contacts';
 
 const Footer = () => {
     return (

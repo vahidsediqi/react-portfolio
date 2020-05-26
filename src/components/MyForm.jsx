@@ -26,20 +26,8 @@ export default class MyForm extends React.Component {
           </div>
 
           <div className="form-group">
-            <input className="form-control form-control-lg mt-4" required type="mobile" name="email" placeholder="Your Mobile Number." />
+            <input className="form-control form-control-lg mt-4" required type="mobile" name="mobile" placeholder="Your Mobile Number." />
           </div>
-            
-          <div class="input-group mb-3">
-                <select className="custom-select" id="inputGroupSelect02">
-                  <option selected>Select Serive</option>
-                  <option value="web design">Web Design</option>
-                  <option value="wordpress design">Wordpress Design</option>
-                  <option value="others">Others</option>
-                </select>
-              <div className="input-group-append">
-                <label className="input-group-text" for="inputGroupSelect02">Options</label>
-              </div>
-        </div> 
           <div className="form-group">
             <textarea className="form-control form-control-lg mt-4" required name="message" placeholder="Your Message."></textarea>
           </div>

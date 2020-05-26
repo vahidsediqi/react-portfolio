@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import './componentStyles/main.css';
-import { motion, AnimatePresence } from "framer-motion"
 
 import '../hover.css';
 import logo from './images/logo.png';

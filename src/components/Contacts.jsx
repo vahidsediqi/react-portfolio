@@ -55,7 +55,7 @@ const Constacts = () => {
                                 <br/>
                                 <div className="socials p-4 rounded" style={{backgroundColor: '#F8F9FA'}}>
                                 <span className="text-dark d-block" style={{fontSize: '20px'}}>
-                                       <i className="fa fa-download hvr-skew-forward mr-2"></i><a className="text-dark" href="#">Download Resume</a>
+                                       <i className="fa fa-download hvr-skew-forward mr-2"></i><a className="text-dark" href="./cv.pdf">Download Resume</a>
                                 </span>
                                 </div>
                             </div>

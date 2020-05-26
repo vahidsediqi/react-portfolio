@@ -42,7 +42,7 @@ export const PORTFOLIOS = [
         category: "Web Design",
         client: "h5 Organization",
         projectdate: "12 Aug, 2019",
-        projectURL: "www.h5organization.com",
+        projectURL: "https://www.h5organization.com",
         image: h5,
         description: "I designed and hosted this website for H5 Organization company using HTML/Css/bootstrap and javascript", 
     },
@@ -51,7 +51,7 @@ export const PORTFOLIOS = [
         category: "Web Design",
         client: "Distinctive Designs",
         projectdate: "12 Oct, 2019",
-        projectURL: "www.distinctivedesignsbuilders.com",
+        projectURL: "https://www.distinctivedesignsbuilders.com",
         image: disgners,
         description: "A website project from JS Designs company"
     },
@@ -60,7 +60,7 @@ export const PORTFOLIOS = [
         category: "Web Design",
         client: "Mccoey Insurance",
         projectdate: "12 feb, 2019",
-        projectURL: "www.mccoeyinsurance.com",
+        projectURL: "https://www.mccoeyinsurance.com",
         image: mcco,
         description: "A website project from JS Designs company"
     },
@@ -78,7 +78,7 @@ export const PORTFOLIOS = [
         category: "Web Design",
         client: "Relief Nursing Services",
         projectdate: "02 April, 2020",
-        projectURL: "www.reliefnursingsf.com",
+        projectURL: "https://www.reliefnursingsf.com",
         image: nursing,
         description: "A website project from JS Designs company"
     },

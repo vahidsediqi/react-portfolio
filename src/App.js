@@ -8,7 +8,7 @@ import Constacts from './components/Contacts';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import { motion, AnimatePresence } from "framer-motion"
+import {AnimatePresence } from "framer-motion"
 
 function App() {
   return (
