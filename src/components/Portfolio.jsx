@@ -2,6 +2,8 @@ import React, { Component, useState }from 'react';
 import { PORTFOLIOS } from './Portfolios';
 import PagesHero from './PagesHero';
 import { motion } from "framer-motion"
+import {Helmet} from "react-helmet";
+
   
 class Protfolio extends Component {
   constructor () {
@@ -49,7 +51,13 @@ class Protfolio extends Component {
       return (
         <motion.div initial="out" animate="in" exit="out"
         transition={pageTransition}
-        variants={pageVariants}>              
+        variants={pageVariants}>    
+              <Helmet>
+                <meta charSet="utf-8" />
+                <title>Vahid Sediqi | Protfolio</title>
+                <link rel="canonical" href="http://vahid.tech" />
+                <meta name="description" content="Vahid Sediqi is a Front-end Software Engineer" />
+            </Helmet>          
       <PagesHero title="Portfolio"/>
               <div id="portfolio">
                 <div className="container">

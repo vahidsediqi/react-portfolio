@@ -1,15 +1,9 @@
-
-
-
-
-
-
 import React from 'react';
 import './componentStyles/main.css'
 import PagesHero from './PagesHero';
 import { motion } from "framer-motion"
 import MyForm from './MyForm';
-
+import {Helmet} from "react-helmet";
 
 const Constacts = () => {
     const pageVariants = {
@@ -30,7 +24,13 @@ const Constacts = () => {
     return (
         <motion.div initial="out" animate="in" exit="out"
         transition={pageTransition}
-        variants={pageVariants}>               
+        variants={pageVariants}>       
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Vahid Sediqi | Constacts</title>
+                <link rel="canonical" href="http://vahid.tech" />
+                <meta name="description" content="Do you have any poject in mind? feel free to contact me" />
+            </Helmet>         
     <PagesHero title="Contacts" route="/contacts"/>
                 <div id="contacts">
                     <div className="container">

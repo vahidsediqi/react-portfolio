@@ -6,6 +6,8 @@ import '../hover.css';
 import PagesHero from './PagesHero';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion"
+import {Helmet} from "react-helmet";
+
 
 
 export const Services = () => {
@@ -84,6 +86,12 @@ const About = () => {
       <motion.div initial="out" animate="in" exit="out"
        transition={pageTransition}
        variants={pageVariants}>  
+              <Helmet>
+                <meta charSet="utf-8" />
+                <title>About Vahid Sediqi</title>
+                <link rel="canonical" href="http://vahid.tech" />
+                <meta name="description" content="Vahid Sediqi is a Front-end Software Engineer" />
+            </Helmet>
     <PagesHero title="About" route="/about" />
             <div id="about" class="mt-5">
                 <div className="container">

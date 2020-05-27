@@ -3,6 +3,8 @@ import PagesHero from './PagesHero';
 import Skills from './Skills';
 import More from './More';
 import { motion } from "framer-motion"
+import {Helmet} from "react-helmet";
+
 
 
 class Resume extends Component {
@@ -33,7 +35,14 @@ class Resume extends Component {
         return (
             <motion.div initial="out" animate="in" exit="out"
             transition={pageTransition}
-            variants={pageVariants}>               
+            variants={pageVariants}>  
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Welcome | My Resume</title>
+                <link rel="canonical" href="http://vahid.tech" />
+                <meta name="description" content="Experienced Front-end Softwar Developer with a demonstrated history 
+                              of working in the arts and crafts industry. Skilled in JavaScript and ReactJs. " />
+            </Helmet>             
         <PagesHero title="Resume"/>
                <div id="resume">
                    <div className="container">
