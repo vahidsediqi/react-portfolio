@@ -9,11 +9,12 @@ const Skills = () => {
            <div className="row">
                <h1 className="display-4 col-12 mt-5 title">Skills <span className='dot'></span></h1>
                <div className="paragraph p-2">
-                Hard-working Front-end web developer with a flair for creating elegant solutions
-                in the least amount of time. Developed Responsive landing pages, customer web portal, 
-                 documentary launch website, and donations webapp for a local charity.
-                 Passionate about software architecture and cloud computing. 
-                 Regular attendee of web developer meetups and hackathons.
+               I am a Web Developer from Turkey who enjoys working with clients who appreciate quality.
+                I have been working in web development industry since 2016. I have worked on everything 
+                from small websites to large web applications.
+                I specialized in HTML/CSS/JavaScript Converting JPG, PSD & Figma files to Responsive 
+                and eye catching website and also designing modern landing pages and 
+                SINGLE PAGE APPLICATIONS using React and VueJS
                </div>
            </div>
            {/* <div className="row">
@@ -58,6 +59,12 @@ const Skills = () => {
                    <span>ReactJs</span>
                 <div className="progress">
                     <div className="progress-bar bg-dark " role="progressbar" style={{width: "80%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+               </div>
+               <div className="col-lg-4 col-md-12 col-sm-12 mt-3">
+                   <span>VueJs</span>
+                <div className="progress">
+                    <div className="progress-bar bg-dark " role="progressbar" style={{width: "70%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                </div>
                <div className="col-lg-4 col-md-12 col-sm-12 mt-3">

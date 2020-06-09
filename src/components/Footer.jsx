@@ -33,13 +33,13 @@ const Footer = () => {
                             <Link className="text-light" to="/about"> About |</Link>
                         </span>
                         <span className="text-light">
-                            <Link className="text-light" to="/portfolio"> Protfolio |</Link>
+                            <Link className="text-light" to="/portfolio"> Portfolio |</Link>
                         </span>
                         <span className="text-light">
                             <Link className="text-light" to="/resume"> Resume |</Link>
                         </span>   
                             <span className="text-light">
-                            <Link className="text-light" to="/contacts"> Constacts</Link>
+                            <Link className="text-light" to="/contacts"> Contacts</Link>
                         </span>
                      </div>
                     </div>

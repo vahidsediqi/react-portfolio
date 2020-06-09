@@ -11,7 +11,7 @@ import gym from './images/gym.png';
 
 export const PORTFOLIOS = [
     {
-        title: "Coding Test",
+        title: "Figma to HTML/CSS",
         category: "Web Design",
         client: "SIU Digital",
         projectdate: "01 Feb, 2020",
@@ -69,7 +69,7 @@ export const PORTFOLIOS = [
         category: "Web Design",
         client: "Jeanne Patrick Insurance",
         projectdate: "12 feb, 2019",
-        projectURL: " www.jeannepatrickinsurance.com",
+        projectURL: "https://www.jeannepatrickinsurance.com",
         image: patric,
         description: "A website project from JS Designs company"
     },

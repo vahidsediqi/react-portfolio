@@ -62,8 +62,8 @@ class Protfolio extends Component {
               <div id="portfolio">
                 <div className="container">
                     <div className="row">
-                    <div className="col-12 text-center">
-                            <h1 clasName="text-center">My Protfolio</h1>
+                    <div className="col-12 text-center mb-3">
+                            <h1 clasName="text-center">My Portfolio</h1>
                             <h3 clasName="text-center">I Love What I Do</h3>
                         </div>
                     </div>
